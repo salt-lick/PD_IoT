@@ -1,0 +1,14 @@
+{
+    "eventName": "sendSlack",
+    "event": "sendSlack",
+    "url": "https://hooks.slack.com/services/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",
+    "requestType": "POST",
+    "form": {
+        "payload": "{\"text\": \"{{m}}\",
+        \"channel\": \"{{n}}\",
+        \"link_names\": \"1\",
+        \"username\":\"particle-{{SPARK_CORE_ID}}\",
+        \"icon_url\":\"http://i.imgur.com/cu8w1Rm.png\"}"
+    },
+    "mydevices": true
+}
